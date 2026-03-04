@@ -389,6 +389,9 @@ section {
 .about-stats .progress-bars .progress-bar .progress-con .progress .haskell {
   width: 40%;
 }
+.about-stats .progress-bars .progress-bar .progress-con .progress .spanish {
+  width: 15%;
+}
 
 .stat-title {
   text-transform: uppercase;
@@ -409,12 +412,21 @@ section {
 }
 
 /*Timeline*/
-.timeline {
+/* .timeline {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
   padding-bottom: 3rem;
+} */
+
+.timeline {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-flow: column;
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 2rem;
 }
+
 .timeline .timeline-item {
   position: relative;
   padding-left: 3rem;
