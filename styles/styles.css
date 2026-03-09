@@ -152,7 +152,6 @@ section {
   pointer-events: none;
 }
 
-/* Socials */
 .fa-linkedin {
   background: transparent;
   color: var(--color-secondary);
@@ -174,16 +173,7 @@ section {
   margin: 10px;
 }
 
-/* .fa {
-  padding: 5px;
-  font-size: 100px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-} */
 
-/* Socials */
 .fa-github {
   background: transparent;
   color: var(--color-secondary);
@@ -191,15 +181,7 @@ section {
   margin: 10px;
 }
 
-/* Socials */
-/* .fa {
-  background: transparent;
-  color: var(--color-secondary);
-  font-size: 2.5rem !important;
-  margin: 10px;
-} */
 
-/*Header-content*/
 .header-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -227,18 +209,13 @@ section {
   width: 60%;
   margin-left: 4rem;
   background-color: var(--color-black);
-  /* transition: all 0.4s ease-in-out; */
 }
 .header-content .left-header .image img {
   width: 100%;
   height: 100%;
   object-fit: fill;
-  /* transition: all 0.4s ease-in-out;
-  filter: grayscale(100%); */
 }
-/* .header-content .left-header .image img:hover {
-  filter: grayscale(0);
-} */
+
 .header-content .right-header {
   display: flex;
   flex-direction: column;
@@ -463,26 +440,6 @@ section {
   height: 2px;
   background-color: var(--color-grey-5);
 }
-/* .offerings .left-about {
-  padding-right: 5rem;
-}
-.offerings .left-about p {
-  line-height: 2rem;
-  padding: 1rem;
-  color: var(--color-grey-1);
-}
-.offerings .left-about h4 {
-  font-size: 2rem;
-  text-transform: uppercase;
-} */
-
-/*Timeline*/
-/* .timeline {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
-  padding-bottom: 3rem;
-} */
 
 .timeline {
   display: grid;
@@ -644,7 +601,6 @@ section {
   object-fit: cover;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  /* filter: grayscale(100%); */
   transition: all 0.4s ease-in-out;
 }
 .blogs .blog .blog-text {
@@ -761,7 +717,6 @@ section {
   justify-content: flex-start;
 }
 
-/*Independed components*/
 .btn-con {
   display: flex;
   align-self: flex-start;
@@ -1103,5 +1058,3 @@ section {
     font-size: 4rem;
   }
 }
-
-/*# sourceMappingURL=styles.css.map */
